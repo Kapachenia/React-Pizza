@@ -5,6 +5,7 @@ const LoadingBlock = () => {
 
     return (
         <ContentLoader
+            className="pizza-block"
             speed={0}
             width={280}
             height={460}
@@ -22,4 +23,4 @@ const LoadingBlock = () => {
     )
 }
 
-export default PizzaLoadingBlock;
+export default LoadingBlock;
