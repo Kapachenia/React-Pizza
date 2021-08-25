@@ -69,7 +69,7 @@ const Home = () => {
                             key={i.id} id={i.id} name={i.name}
                             price={i.price} imageUrl={i.imageUrl}
                             types={i.types} sizes={i.sizes}
-                            addedCount={cartItems[i.id] && cartItems[i.id].length}
+                            addedCount={cartItems[i.id] && cartItems[i.id].items.length}
                             {...i}
                         />))
                     : Array(12).fill(<LoadingBlock />)
